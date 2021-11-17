@@ -1,0 +1,25 @@
+.header {
+  &__subtitle {
+    padding: 13px 5px;
+    font-size: 20px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    background-color: #B580FF;
+  }
+}
+
+/*---376px---*/
+
+@media (max-width: 376px) {
+  .header {
+    &__subtitle {
+      padding: 6px 0;
+      font-size: 14px;
+      letter-spacing: 0.1em;
+    }
+  }
+}
+
+/*------------*/

@@ -1,0 +1,53 @@
+.about {
+  background-image: url("../images/about_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 737px;
+  border-bottom: 6px solid #ffffff;
+  &__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+  }
+  &__title {
+    font-size: 45px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.17em;
+    text-transform: uppercase;
+    color: #001780;
+    margin-bottom: 16px;
+  }
+  &__subtitle {
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #00167F;
+    margin-bottom: 24px;
+  }
+  &__btn {
+    background-color: #FF7B00;
+    color: #ffffff;
+  }
+}
+
+/*---376px---*/
+
+@media (max-width: 376px) {
+  .about {
+    &__title {
+      font-size: 34px;
+      letter-spacing: 0.15em;
+    }
+    &__subtitle {
+      font-size: 16px;
+      line-height: 130%;
+      letter-spacing: 0.1em;
+    }
+  }
+}
+
+/*------------*/
